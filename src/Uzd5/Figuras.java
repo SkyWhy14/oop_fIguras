@@ -53,10 +53,13 @@ public class Figuras {
 				izvele = 0;
 			
 			switch(izvele) {
-			case 4 : 
-			JOptionPane.showMessageDialog(null, "Programma aptureta!","Beigas",
-					JOptionPane.INFORMATION_MESSAGE);	
-			break;	
+			case 0 : 
+				JOptionPane.showMessageDialog(null, "Programma aptureta!","Beigas",
+						JOptionPane.INFORMATION_MESSAGE);	
+				break;	
+			case 1 : Oizveide.izveidotObjektu();
+			break;
+			
 			
 			
 			
